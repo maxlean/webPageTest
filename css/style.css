@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Menú de navegación --- */
+.fondoNavegacion {
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.navegacion {
+  width: 90%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.navegacion h1 {
+  font-size: 24px;
+}
+
+.navegacion ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navegacion ul li {
+  margin-left: 20px;
+}
+
+/* --- Banner --- */
+.banner {
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  display: flex;
+}
+
+.contenedorBanner {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  width: 80%;
+  font-size: 62px;
+  margin: 0;
+}
+
+/* --- Productos --- */
+.tarjetas {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  width: 32%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tarjeta .imagen {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+.titulo h4 {
+  width: 100%;
+  font-size: 20px;
+  margin: 0;
+}
+
+.precio h4 {
+  width: 100%;
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.botonCompra button {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 7px;
+  cursor: pointer;
+  background-color: #0d6efd;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.botonCompra button:hover {
+  background-color: #fff;
+  border: 1px solid #0d6efd;
+  color: black;
+}
+
+/* --- Pie de página --- */
+footer {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
